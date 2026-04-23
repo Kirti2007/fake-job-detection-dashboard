@@ -1,29 +1,71 @@
-# Fake Job Posting Detection & Analytics Dashboard
+# 🚨 Fake Job Detection & Analytics Dashboard
 
-## 📌 Project Overview
-This project detects fake job postings using data analysis and visualization.
+## 📌 Overview
 
-## 🛠 Tools Used
-- Python (Pandas)
-- SQL (MySQL)
-- Power BI
+This project analyzes job postings to identify fraudulent listings using data cleaning, feature engineering, and interactive dashboards. It helps detect suspicious job patterns and improves decision-making.
 
-## 🔍 Key Features
-- Data cleaning and preprocessing
-- Fraud detection using suspicious score
-- SQL analysis for insights
-- Interactive Power BI dashboard
+---
 
-## 📊 Insights
-- Fake jobs often lack company website
-- Short descriptions are more suspicious
-- Certain locations have higher fraud rates
+## 🛠️ Tools Used
 
-## 📁 Files
-- data/cleaned_jobs.csv
-- notebooks/data_cleaning.ipynb
-- sql/queries.sql
-- powerbi/dashboard.pbix
+* Python (Pandas)
+* SQL (MySQL)
+* Power BI
 
-## 🚀 Outcome
-Built a complete data analytics pipeline from raw data to dashboard.
+---
+
+## 📊 Key Features
+
+* Data cleaning and preprocessing
+* Feature engineering (suspicious score, keyword detection)
+* SQL-based analysis queries
+* Interactive Power BI dashboard with slicers and filters
+* Multi-page dashboard (Overview, Analysis, Insights)
+
+---
+
+## 🔍 Key Insights
+
+* Jobs without company websites are more likely to be fake
+* High suspicious scores strongly indicate fraudulent listings
+* Certain industries and locations show higher fraud rates
+* Fake jobs often target entry-level candidates
+
+---
+
+## 📸 Dashboard Preview
+
+### 📊 Main Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+
+---
+
+### 📈 Analysis Page
+
+![Analysis](screenshots/analysis.png)
+
+
+---
+
+### 🧠 Insights Page
+
+![Insights](screenshots/insights.png)
+
+---
+
+## 🚀 Conclusion
+
+Fraudulent job postings follow identifiable patterns such as missing company details, vague descriptions, and suspicious keywords. This project demonstrates how data analysis can be used to detect and prevent such fraud effectively.
+
+---
+
+## 📂 Project Files
+
+* Power BI Dashboard (.pbix)
+* Cleaned Dataset
+* SQL Queries
+* Screenshots
+
+---
